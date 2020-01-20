@@ -1,0 +1,130 @@
+#oop3
+#1
+class Dog():
+    age = 0
+    name = ''
+    weight = 0
+    
+    def __init__(self, a,b,c):
+        self.age= a
+        self.name= b
+        self.weight= c
+    
+class Sharik(Dog):
+    print('\n'
+          'Информация:')
+sharik1=Sharik('4 года','Шарик','15 кг')
+
+print('\n'
+      f'Возраст: {sharik1.age} \n'
+      f'Имя: {sharik1.name} \n'
+      f'Вес: {sharik1.weight} \n')
+#2
+class Person():
+    name = ''
+    cellPhone = ''
+    email = ''
+    
+    def __init__(self, a,b,c):
+        self.name= a
+        self.cellPhone= b
+        self.email= c
+    
+class Person1(Person):
+    print('\n'
+          'Информация:')
+person1=Person('Max','+37258432353','job@gmail.com')
+
+print('\n'
+      f'Имя: {person1.name} \n'
+      f'Мобильный телефон: {person1.cellPhone} \n'
+      f'Почта: {person1.email} \n')
+
+#3
+class Bird():
+    color= ''
+    name= ''
+    breed= ''
+    
+myBird=Bird()
+myBird.color='green'
+myBird.name='Sunny'
+myBird.breed='Sun Conure'
+
+print('\n'
+      'Информация:'
+      '\n'
+      '\n'
+      f'Цвет: {myBird.color} \n'
+      f'Имя: {myBird.name} \n'
+      f'Порода: {myBird.breed} \n')
+#4
+class Character():
+    coord=''
+    name=''
+    force=''
+
+character=Character()
+character.coord='\nX: 25 \nY: 30'
+character.name='Ben'
+character.force='15'
+
+print('\n'
+      'Информация:'
+      '\n'
+      '\n'
+      f'Координаты: {character.coord} \n'
+      f'Имя: {character.name} \n'
+      f'Сила: {character.force} \n')
+#5
+class Person:
+    name=''
+    money=0
+
+nancy=Person()
+name='Nancy'
+money=100
+
+print(f'{name},{money}')
+
+#6
+class Person:
+    name='Bob'
+    money=0
+    
+bob=Person()
+print(bob.name,'has',money,'dollars.')
+
+#oop4
+#1
+class Cat:
+    name=''
+    color=''
+    weight=''
+
+cat=Cat()
+cat.name='Murka'
+cat.color='black and white'
+cat.weight='7 кг'
+
+class Meow:
+    meow=''
+meow=Meow()
+meow.meow='Meow Meow Meow Meow Meow Meow Meow Meow Meow Meow Meow Meow Meow Meow Meow Meow Meow Meow Meow'
+
+print('\n'
+      f'Имя: {cat.name} \n'
+      f'Цвет: {cat.color} \n'
+      f'Вес: {cat.weight} \n'
+      f'{meow.meow}')
+
+#3
+class Monster:
+    name='Big Boy'
+    health=100
+    
+monster=Monster()
+print(f'{monster.name} have {monster.health}hp')
+h=input()
+#не доделано
+
